@@ -1,0 +1,6 @@
+/Users/Madzor/Documents/AAU/4th semester/Programmering/Glitter-Gnomen/UltiCalc/MultiCalc/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/Madzor/Documents/AAU/4th semester/Programmering/Glitter-Gnomen/UltiCalc/MultiCalc/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/MultiCalc.gtk-gui.gui.stetic
+/Users/Madzor/Documents/AAU/4th semester/Programmering/Glitter-Gnomen/UltiCalc/MultiCalc/MultiCalc/MultiCalc/MultiCalc/bin/Debug/MultiCalc.exe.mdb
+/Users/Madzor/Documents/AAU/4th semester/Programmering/Glitter-Gnomen/UltiCalc/MultiCalc/MultiCalc/MultiCalc/MultiCalc/bin/Debug/MultiCalc.exe
+/Users/Madzor/Documents/AAU/4th semester/Programmering/Glitter-Gnomen/UltiCalc/MultiCalc/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/MultiCalc.exe
+/Users/Madzor/Documents/AAU/4th semester/Programmering/Glitter-Gnomen/UltiCalc/MultiCalc/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/MultiCalc.exe.mdb
