@@ -65,6 +65,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="inversePolishNotation.cs" />
     <Compile Include="gtk-gui\MultiCalc.inversePolishNotation.cs" />
+    <Compile Include="ConverterWindow.cs" />
+    <Compile Include="gtk-gui\MultiCalc.ConverterWindow.cs" />
+    <Compile Include="SpeedConvWindow.cs" />
+    <Compile Include="gtk-gui\MultiCalc.SpeedConvWindow.cs" />
+    <Compile Include="TempConvWindow.cs" />
+    <Compile Include="gtk-gui\MultiCalc.TempConvWindow.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

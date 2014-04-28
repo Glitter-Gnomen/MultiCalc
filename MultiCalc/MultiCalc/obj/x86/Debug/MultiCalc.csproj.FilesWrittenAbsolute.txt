@@ -4,3 +4,9 @@
 /Users/Madzor/Documents/AAU/4th semester/Programmering/Glitter-Gnomen/UltiCalc/MultiCalc/MultiCalc/MultiCalc/MultiCalc/bin/Debug/MultiCalc.exe
 /Users/Madzor/Documents/AAU/4th semester/Programmering/Glitter-Gnomen/UltiCalc/MultiCalc/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/MultiCalc.exe
 /Users/Madzor/Documents/AAU/4th semester/Programmering/Glitter-Gnomen/UltiCalc/MultiCalc/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/MultiCalc.exe.mdb
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/MultiCalc.gtk-gui.gui.stetic
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/MultiCalc/MultiCalc/MultiCalc/bin/Debug/MultiCalc.exe.mdb
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/MultiCalc/MultiCalc/MultiCalc/bin/Debug/MultiCalc.exe
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/MultiCalc.exe
+/Users/Rasmus/Documents/AAU CPH/Medialogy 4th semester/Object Oriented Software Engineering/MultiCalc/MultiCalc/MultiCalc/obj/x86/Debug/MultiCalc.exe.mdb

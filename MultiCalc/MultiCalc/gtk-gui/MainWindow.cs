@@ -3,7 +3,10 @@
 
 public partial class MainWindow
 {
-	private global::Gtk.Button button11;
+	private global::Gtk.VBox vbox1;
+	private global::Gtk.Button buttonConverter;
+	private global::Gtk.Button buttonSpeed;
+	private global::Gtk.Button buttonTemperature;
 
 	protected virtual void Build ()
 	{
@@ -13,12 +16,40 @@ public partial class MainWindow
 		this.Title = global::Mono.Unix.Catalog.GetString ("MainWindow");
 		this.WindowPosition = ((global::Gtk.WindowPosition)(4));
 		// Container child MainWindow.Gtk.Container+ContainerChild
-		this.button11 = new global::Gtk.Button ();
-		this.button11.CanFocus = true;
-		this.button11.Name = "button11";
-		this.button11.UseUnderline = true;
-		this.button11.Label = global::Mono.Unix.Catalog.GetString ("GtkButton");
-		this.Add (this.button11);
+		this.vbox1 = new global::Gtk.VBox ();
+		this.vbox1.Name = "vbox1";
+		this.vbox1.Spacing = 6;
+		// Container child vbox1.Gtk.Box+BoxChild
+		this.buttonConverter = new global::Gtk.Button ();
+		this.buttonConverter.CanFocus = true;
+		this.buttonConverter.Name = "buttonConverter";
+		this.buttonConverter.UseUnderline = true;
+		this.buttonConverter.Label = global::Mono.Unix.Catalog.GetString ("Length Converter");
+		this.vbox1.Add (this.buttonConverter);
+		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.buttonConverter]));
+		w1.Position = 0;
+		w1.Fill = false;
+		// Container child vbox1.Gtk.Box+BoxChild
+		this.buttonSpeed = new global::Gtk.Button ();
+		this.buttonSpeed.CanFocus = true;
+		this.buttonSpeed.Name = "buttonSpeed";
+		this.buttonSpeed.UseUnderline = true;
+		this.buttonSpeed.Label = global::Mono.Unix.Catalog.GetString ("Speed Converter");
+		this.vbox1.Add (this.buttonSpeed);
+		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.buttonSpeed]));
+		w2.Position = 1;
+		w2.Fill = false;
+		// Container child vbox1.Gtk.Box+BoxChild
+		this.buttonTemperature = new global::Gtk.Button ();
+		this.buttonTemperature.CanFocus = true;
+		this.buttonTemperature.Name = "buttonTemperature";
+		this.buttonTemperature.UseUnderline = true;
+		this.buttonTemperature.Label = global::Mono.Unix.Catalog.GetString ("Temperature Converter");
+		this.vbox1.Add (this.buttonTemperature);
+		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.buttonTemperature]));
+		w3.Position = 2;
+		w3.Fill = false;
+		this.Add (this.vbox1);
 		if ((this.Child != null)) {
 			this.Child.ShowAll ();
 		}
@@ -26,5 +57,8 @@ public partial class MainWindow
 		this.DefaultHeight = 300;
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
+		this.buttonConverter.Clicked += new global::System.EventHandler (this.OnButtonConverterClicked);
+		this.buttonSpeed.Clicked += new global::System.EventHandler (this.OnButtonSpeedClicked);
+		this.buttonTemperature.Clicked += new global::System.EventHandler (this.OnButtonTemperatureClicked);
 	}
 }

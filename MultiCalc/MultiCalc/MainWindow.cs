@@ -13,4 +13,19 @@ public partial class MainWindow: Gtk.Window
 		Application.Quit ();
 		a.RetVal = true;
 	}
+
+	protected void OnButtonConverterClicked (object sender, EventArgs e)
+	{
+		new MultiCalc.ConverterWindow ();
+	}
+
+	protected void OnButtonSpeedClicked (object sender, EventArgs e)
+	{
+		new MultiCalc.SpeedConvWindow ();
+	}
+
+	protected void OnButtonTemperatureClicked (object sender, EventArgs e)
+	{
+		new MultiCalc.TempConvWindow ();
+	}
 }
