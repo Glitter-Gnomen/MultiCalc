@@ -12,7 +12,7 @@ namespace MultiCalc
 
 		protected void OnButton0Clicked (object sender, EventArgs e)
 		{
-			throw new NotImplementedException ();
+			Console.WriteLine ("Test");
 		}
 	}
 }
