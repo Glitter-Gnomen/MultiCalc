@@ -53,7 +53,7 @@ namespace MultiCalc
 			// Container child hbox1.Gtk.Box+BoxChild
 			this.label2 = new global::Gtk.Label ();
 			this.label2.Name = "label2";
-			this.label2.LabelProp = global::Mono.Unix.Catalog.GetString ("Deposit");
+			this.label2.LabelProp = global::Mono.Unix.Catalog.GetString ("Deposit (Ko)");
 			this.hbox1.Add (this.label2);
 			global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.label2]));
 			w2.Position = 0;
@@ -80,7 +80,7 @@ namespace MultiCalc
 			// Container child hbox2.Gtk.Box+BoxChild
 			this.label3 = new global::Gtk.Label ();
 			this.label3.Name = "label3";
-			this.label3.LabelProp = global::Mono.Unix.Catalog.GetString ("Rate     ");
+			this.label3.LabelProp = global::Mono.Unix.Catalog.GetString ("Rate (%)       ");
 			this.hbox2.Add (this.label3);
 			global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.hbox2 [this.label3]));
 			w5.Position = 0;
@@ -107,7 +107,7 @@ namespace MultiCalc
 			// Container child hbox3.Gtk.Box+BoxChild
 			this.label4 = new global::Gtk.Label ();
 			this.label4.Name = "label4";
-			this.label4.LabelProp = global::Mono.Unix.Catalog.GetString ("Terms  ");
+			this.label4.LabelProp = global::Mono.Unix.Catalog.GetString ("Terms (n)    ");
 			this.hbox3.Add (this.label4);
 			global::Gtk.Box.BoxChild w8 = ((global::Gtk.Box.BoxChild)(this.hbox3 [this.label4]));
 			w8.Position = 0;
