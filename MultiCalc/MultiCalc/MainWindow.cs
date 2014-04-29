@@ -16,7 +16,7 @@ public partial class MainWindow: Gtk.Window
 
 	protected void OnButtonConverterClicked (object sender, EventArgs e)
 	{
-		new MultiCalc.ConverterWindow ();
+		new MultiCalc.BMIConvWindow ();
 	}
 
 	protected void OnButtonSpeedClicked (object sender, EventArgs e)

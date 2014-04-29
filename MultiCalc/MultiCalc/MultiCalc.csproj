@@ -71,6 +71,8 @@
     <Compile Include="gtk-gui\MultiCalc.SpeedConvWindow.cs" />
     <Compile Include="TempConvWindow.cs" />
     <Compile Include="gtk-gui\MultiCalc.TempConvWindow.cs" />
+    <Compile Include="BMIConvWindow.cs" />
+    <Compile Include="gtk-gui\MultiCalc.BMIConvWindow.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
