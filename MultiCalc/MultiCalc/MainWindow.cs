@@ -28,4 +28,19 @@ public partial class MainWindow: Gtk.Window
 	{
 		new MultiCalc.TempConvWindow ();
 	}
+
+	protected void OnButton4Clicked (object sender, EventArgs e)
+	{
+		new MultiCalc.BMIConvWindow ();
+	}
+
+	protected void OnButton3Clicked (object sender, EventArgs e)
+	{
+		new MultiCalc.SavingsCalc ();
+	}
+
+	protected void OnButton2Clicked (object sender, EventArgs e)
+	{
+		new MultiCalc.MultiSavingsCalc ();
+	}
 }
