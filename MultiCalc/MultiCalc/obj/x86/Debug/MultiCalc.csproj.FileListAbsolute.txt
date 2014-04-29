@@ -3,3 +3,8 @@ C:\Users\Troels\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\bin\Debug\MultiCa
 C:\Users\Troels\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.csprojResolveAssemblyReference.cache
 C:\Users\Troels\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.exe
 C:\Users\Troels\Documents\GitHub\MultiCalc\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.pdb
+F:\MultiCalc\MultiCalc\bin\Debug\MultiCalc.exe
+F:\MultiCalc\MultiCalc\bin\Debug\MultiCalc.pdb
+F:\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.csprojResolveAssemblyReference.cache
+F:\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.exe
+F:\MultiCalc\MultiCalc\obj\x86\Debug\MultiCalc.pdb

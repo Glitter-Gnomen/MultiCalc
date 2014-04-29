@@ -43,4 +43,9 @@ public partial class MainWindow: Gtk.Window
 	{
 		new MultiCalc.MultiSavingsCalc ();
 	}
+
+	protected void OnButton5Clicked (object sender, EventArgs e)
+	{
+		new MultiCalc.inversePolishNotation ();
+	}
 }

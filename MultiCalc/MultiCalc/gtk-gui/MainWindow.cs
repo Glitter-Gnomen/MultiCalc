@@ -30,6 +30,7 @@ public partial class MainWindow
 		this.vbox1.Spacing = 6;
 		// Container child vbox1.Gtk.Box+BoxChild
 		this.label1 = new global::Gtk.Label ();
+		this.label1.Name = "label1";
 		this.label1.LabelProp = global::Mono.Unix.Catalog.GetString ("MultiCalc");
 		this.vbox1.Add (this.label1);
 		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.label1]));
@@ -49,7 +50,7 @@ public partial class MainWindow
 		this.button5.CanFocus = true;
 		this.button5.Name = "button5";
 		this.button5.UseUnderline = true;
-		this.button5.Label = global::Mono.Unix.Catalog.GetString ("GtkButton");
+		this.button5.Label = global::Mono.Unix.Catalog.GetString ("Inverse Polish Notation");
 		this.vbox4.Add (this.button5);
 		global::Gtk.Box.BoxChild w2 = ((global::Gtk.Box.BoxChild)(this.vbox4 [this.button5]));
 		w2.Position = 0;
@@ -158,6 +159,7 @@ public partial class MainWindow
 		this.DefaultHeight = 318;
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
+		this.button5.Clicked += new global::System.EventHandler (this.OnButton5Clicked);
 		this.button4.Clicked += new global::System.EventHandler (this.OnButton4Clicked);
 		this.button3.Clicked += new global::System.EventHandler (this.OnButton3Clicked);
 		this.button2.Clicked += new global::System.EventHandler (this.OnButton2Clicked);
