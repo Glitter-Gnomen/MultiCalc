@@ -53,12 +53,13 @@
                   </packing>
                 </child>
                 <child>
-                  <widget class="Gtk.Button" id="button6">
+                  <widget class="Gtk.Button" id="buttonLength">
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Type">TextOnly</property>
-                    <property name="Label" translatable="yes">GtkButton</property>
+                    <property name="Label" translatable="yes">Length Converter</property>
                     <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnButtonLengthClicked" />
                   </widget>
                   <packing>
                     <property name="Position">1</property>
@@ -68,12 +69,13 @@
                   </packing>
                 </child>
                 <child>
-                  <widget class="Gtk.Button" id="button7">
+                  <widget class="Gtk.Button" id="buttonSpeed">
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Type">TextOnly</property>
-                    <property name="Label" translatable="yes">GtkButton</property>
+                    <property name="Label" translatable="yes">Speed Converter</property>
                     <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnButtonSpeedClicked" />
                   </widget>
                   <packing>
                     <property name="Position">2</property>

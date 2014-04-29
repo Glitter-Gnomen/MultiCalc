@@ -8,8 +8,8 @@ public partial class MainWindow
 	private global::Gtk.VBox vbox2;
 	private global::Gtk.VBox vbox4;
 	private global::Gtk.Button button5;
-	private global::Gtk.Button button6;
-	private global::Gtk.Button button7;
+	private global::Gtk.Button buttonLength;
+	private global::Gtk.Button buttonSpeed;
 	private global::Gtk.Button button4;
 	private global::Gtk.VBox vbox3;
 	private global::Gtk.Button button3;
@@ -57,24 +57,24 @@ public partial class MainWindow
 		w2.Expand = false;
 		w2.Fill = false;
 		// Container child vbox4.Gtk.Box+BoxChild
-		this.button6 = new global::Gtk.Button ();
-		this.button6.CanFocus = true;
-		this.button6.Name = "button6";
-		this.button6.UseUnderline = true;
-		this.button6.Label = global::Mono.Unix.Catalog.GetString ("GtkButton");
-		this.vbox4.Add (this.button6);
-		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vbox4 [this.button6]));
+		this.buttonLength = new global::Gtk.Button ();
+		this.buttonLength.CanFocus = true;
+		this.buttonLength.Name = "buttonLength";
+		this.buttonLength.UseUnderline = true;
+		this.buttonLength.Label = global::Mono.Unix.Catalog.GetString ("Length Converter");
+		this.vbox4.Add (this.buttonLength);
+		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vbox4 [this.buttonLength]));
 		w3.Position = 1;
 		w3.Expand = false;
 		w3.Fill = false;
 		// Container child vbox4.Gtk.Box+BoxChild
-		this.button7 = new global::Gtk.Button ();
-		this.button7.CanFocus = true;
-		this.button7.Name = "button7";
-		this.button7.UseUnderline = true;
-		this.button7.Label = global::Mono.Unix.Catalog.GetString ("GtkButton");
-		this.vbox4.Add (this.button7);
-		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.vbox4 [this.button7]));
+		this.buttonSpeed = new global::Gtk.Button ();
+		this.buttonSpeed.CanFocus = true;
+		this.buttonSpeed.Name = "buttonSpeed";
+		this.buttonSpeed.UseUnderline = true;
+		this.buttonSpeed.Label = global::Mono.Unix.Catalog.GetString ("Speed Converter");
+		this.vbox4.Add (this.buttonSpeed);
+		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.vbox4 [this.buttonSpeed]));
 		w4.Position = 2;
 		w4.Expand = false;
 		w4.Fill = false;
@@ -160,6 +160,8 @@ public partial class MainWindow
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
 		this.button5.Clicked += new global::System.EventHandler (this.OnButton5Clicked);
+		this.buttonLength.Clicked += new global::System.EventHandler (this.OnButtonLengthClicked);
+		this.buttonSpeed.Clicked += new global::System.EventHandler (this.OnButtonSpeedClicked);
 		this.button4.Clicked += new global::System.EventHandler (this.OnButton4Clicked);
 		this.button3.Clicked += new global::System.EventHandler (this.OnButton3Clicked);
 		this.button2.Clicked += new global::System.EventHandler (this.OnButton2Clicked);

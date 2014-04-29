@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MultiCalc/SavingsCalc.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MultiCalc/MainWindow.cs">
     <Files>
       <File FileName="MultiCalc/Program.cs" Line="1" Column="1" />
-      <File FileName="MultiCalc/MainWindow.cs" Line="1" Column="1" />
-      <File FileName="MultiCalc/SavingsCalc.cs" Line="42" Column="3" />
+      <File FileName="MultiCalc/MainWindow.cs" Line="25" Column="3" />
+      <File FileName="MultiCalc/SpeedConvWindow.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

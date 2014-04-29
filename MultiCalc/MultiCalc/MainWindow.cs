@@ -48,4 +48,9 @@ public partial class MainWindow: Gtk.Window
 	{
 		new MultiCalc.inversePolishNotation ();
 	}
+
+	protected void OnButtonLengthClicked (object sender, EventArgs e)
+	{
+		new MultiCalc.ConverterWindow ();
+	}
 }
