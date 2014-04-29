@@ -4,7 +4,7 @@
     <Files>
       <File FileName="MultiCalc/Program.cs" Line="1" Column="1" />
       <File FileName="MultiCalc/MainWindow.cs" Line="1" Column="1" />
-      <File FileName="MultiCalc/MultiSavingsCalc.cs" Line="23" Column="41" />
+      <File FileName="MultiCalc/MultiSavingsCalc.cs" Line="28" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
