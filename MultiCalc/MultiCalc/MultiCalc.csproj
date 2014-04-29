@@ -73,6 +73,10 @@
     <Compile Include="gtk-gui\MultiCalc.TempConvWindow.cs" />
     <Compile Include="BMIConvWindow.cs" />
     <Compile Include="gtk-gui\MultiCalc.BMIConvWindow.cs" />
+    <Compile Include="SavingsCalc.cs" />
+    <Compile Include="gtk-gui\MultiCalc.SavingsCalc.cs" />
+    <Compile Include="MultiSavingsCalc.cs" />
+    <Compile Include="gtk-gui\MultiCalc.MultiSavingsCalc.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

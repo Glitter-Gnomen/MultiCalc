@@ -43,6 +43,11 @@ namespace MultiCalc
 				label5.Text = "...Severely Obese...";
 			}
 		}
+
+		protected void OnButton2Clicked (object sender, EventArgs e)
+		{
+			num1.Text = num2.Text = num3.Text = label5.Text = "";
+		}
 	}
 }
 
